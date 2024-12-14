@@ -27,7 +27,7 @@ public class SettingsModule implements Module {
             System.out.println("--------------------------------");
             System.out.print("请选择设置选项 (1-5): ");
 
-            String choice = Utils.scanner.nextLine().trim();
+            String choice = Utils.getUserInput().trim();
 
             switch (choice) {
                 case "1":
@@ -67,51 +67,55 @@ public class SettingsModule implements Module {
         System.out.println("[8] 重置为默认");
         System.out.print("请选择颜色选项 (1-8): ");
 
-        String colorChoice = Utils.scanner.nextLine().trim();
+        String colorChoice = Utils.getUserInput().trim();
+        String selectedColor = null;
+        String colorName = "";
         switch (colorChoice) {
             case "1":
-                Utils.setAsciiArtColor("\033[1;34m"); // 蓝色
-                System.out.println("3D ASCII 艺术标题颜色已设置为蓝色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为蓝色。");
+                selectedColor = "\033[1;34m"; // 蓝色
+                colorName = "蓝色";
                 break;
             case "2":
-                Utils.setAsciiArtColor("\033[1;32m"); // 绿色
-                System.out.println("3D ASCII 艺术标题颜色已设置为绿色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为绿色。");
+                selectedColor = "\033[1;32m"; // 绿色
+                colorName = "绿色";
                 break;
             case "3":
-                Utils.setAsciiArtColor("\033[1;31m"); // 红色
-                System.out.println("3D ASCII 艺术标题颜色已设置为红色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为红色。");
+                selectedColor = "\033[1;31m"; // 红色
+                colorName = "红色";
                 break;
             case "4":
-                Utils.setAsciiArtColor("\033[1;33m"); // 黄色
-                System.out.println("3D ASCII 艺术标题颜色已设置为黄色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为黄色。");
+                selectedColor = "\033[1;33m"; // 黄色
+                colorName = "黄色";
                 break;
             case "5":
-                Utils.setAsciiArtColor("\033[1;35m"); // 紫色
-                System.out.println("3D ASCII 艺术标题颜色已设置为紫色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为紫色。");
+                selectedColor = "\033[1;35m"; // 紫色
+                colorName = "紫色";
                 break;
             case "6":
-                Utils.setAsciiArtColor("\033[1;36m"); // 青色
-                System.out.println("3D ASCII 艺术标题颜色已设置为青色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为青色。");
+                selectedColor = "\033[1;36m"; // 青色
+                colorName = "青色";
                 break;
             case "7":
-                Utils.setAsciiArtColor("\033[1;37m"); // 白色
-                System.out.println("3D ASCII 艺术标题颜色已设置为白色。");
-                Utils.logEvent("用户更改3D ASCII艺术标题颜色为白色。");
+                selectedColor = "\033[1;37m"; // 白色
+                colorName = "白色";
                 break;
             case "8":
-                Utils.setAsciiArtColor("\033[0m"); // 默认
-                System.out.println("3D ASCII 艺术标题颜色已重置为默认。");
-                Utils.logEvent("用户重置3D ASCII艺术标题颜色为默认。");
+                selectedColor = "\033[0m"; // 默认
+                colorName = "默认";
                 break;
             default:
                 System.out.println("无效选择，请重试。");
+                Utils.pause();
+                return;
         }
+
+        Utils.setAsciiArtColor(selectedColor);
+        System.out.println("3D ASCII 艺术标题颜色已设置为" + colorName + "。");
+        Utils.logEvent("用户更改3D ASCII艺术标题颜色为" + colorName + "。");
+
+        // 立即应用颜色更改：重新显示ASCII艺术标题
+        Utils.clearScreen();
+        Utils.display3DASCII();
         Utils.pause();
     }
 
@@ -131,51 +135,52 @@ public class SettingsModule implements Module {
         System.out.println("[8] 重置为默认");
         System.out.print("请选择颜色选项 (1-8): ");
 
-        String colorChoice = Utils.scanner.nextLine().trim();
+        String colorChoice = Utils.getUserInput().trim();
+        String selectedColor = null;
+        String colorName = "";
         switch (colorChoice) {
             case "1":
-                Utils.setLoadingAnimationColor("\033[1;32m"); // 绿色
-                System.out.println("加载动画颜色已设置为绿色。");
-                Utils.logEvent("用户更改加载动画颜色为绿色。");
+                selectedColor = "\033[1;32m"; // 绿色
+                colorName = "绿色";
                 break;
             case "2":
-                Utils.setLoadingAnimationColor("\033[1;33m"); // 黄色
-                System.out.println("加载动画颜色已设置为黄色。");
-                Utils.logEvent("用户更改加载动画颜色为黄色。");
+                selectedColor = "\033[1;33m"; // 黄色
+                colorName = "黄色";
                 break;
             case "3":
-                Utils.setLoadingAnimationColor("\033[1;31m"); // 红色
-                System.out.println("加载动画颜色已设置为红色。");
-                Utils.logEvent("用户更改加载动画颜色为红色。");
+                selectedColor = "\033[1;31m"; // 红色
+                colorName = "红色";
                 break;
             case "4":
-                Utils.setLoadingAnimationColor("\033[1;34m"); // 蓝色
-                System.out.println("加载动画颜色已设置为蓝色。");
-                Utils.logEvent("用户更改加载动画颜色为蓝色。");
+                selectedColor = "\033[1;34m"; // 蓝色
+                colorName = "蓝色";
                 break;
             case "5":
-                Utils.setLoadingAnimationColor("\033[1;35m"); // 紫色
-                System.out.println("加载动画颜色已设置为紫色。");
-                Utils.logEvent("用户更改加载动画颜色为紫色。");
+                selectedColor = "\033[1;35m"; // 紫色
+                colorName = "紫色";
                 break;
             case "6":
-                Utils.setLoadingAnimationColor("\033[1;36m"); // 青色
-                System.out.println("加载动画颜色已设置为青色。");
-                Utils.logEvent("用户更改加载动画颜色为青色。");
+                selectedColor = "\033[1;36m"; // 青色
+                colorName = "青色";
                 break;
             case "7":
-                Utils.setLoadingAnimationColor("\033[1;37m"); // 白色
-                System.out.println("加载动画颜色已设置为白色。");
-                Utils.logEvent("用户更改加载动画颜色为白色。");
+                selectedColor = "\033[1;37m"; // 白色
+                colorName = "白色";
                 break;
             case "8":
-                Utils.setLoadingAnimationColor("\033[0m"); // 默认
-                System.out.println("加载动画颜色已重置为默认。");
-                Utils.logEvent("用户重置加载动画颜色为默认。");
+                selectedColor = "\033[0m"; // 默认
+                colorName = "默认";
                 break;
             default:
                 System.out.println("无效选择，请重试。");
+                Utils.pause();
+                return;
         }
+
+        Utils.setLoadingAnimationColor(selectedColor);
+        System.out.println("加载动画颜色已设置为" + colorName + "。");
+        Utils.logEvent("用户更改加载动画颜色为" + colorName + "。");
+
         Utils.pause();
     }
 
@@ -190,7 +195,7 @@ public class SettingsModule implements Module {
         System.out.println("[3] 返回设置菜单");
         System.out.print("请选择操作 (1-3): ");
 
-        String choice = Utils.scanner.nextLine().trim();
+        String choice = Utils.getUserInput().trim();
         switch (choice) {
             case "1":
                 Utils.enableLogging(true);
@@ -221,7 +226,7 @@ public class SettingsModule implements Module {
         System.out.println("[3] 返回设置菜单");
         System.out.print("请选择操作 (1-3): ");
 
-        String choice = Utils.scanner.nextLine().trim();
+        String choice = Utils.getUserInput().trim();
         switch (choice) {
             case "1":
                 Utils.setShowLoadingAnimation(true);

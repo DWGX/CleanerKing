@@ -1,0 +1,81 @@
+[2024-12-13 19:05:08] 事件: 日志记录已启用。
+[2024-12-13 19:05:08] 事件: 用户启用了日志保存。
+[2024-12-13 19:05:27] 事件: 用户更改3D ASCII艺术标题颜色为红色。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\292d5ecb-15fb-401b-b384-6655f4a75228.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\292d5ecb-15fb-401b-b384-6655f4a75228.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\292d5ecb-15fb-401b-b384-6655f4a75228.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\292d5ecb-15fb-401b-b384-6655f4a75228.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\2bd00208-7545-4409-a725-0b38f2e42934.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\2bd00208-7545-4409-a725-0b38f2e42934.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\2bd00208-7545-4409-a725-0b38f2e42934.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\2bd00208-7545-4409-a725-0b38f2e42934.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4a80acb2-fc5e-422e-ba5d-45430496e5f1.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\4a80acb2-fc5e-422e-ba5d-45430496e5f1.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4a80acb2-fc5e-422e-ba5d-45430496e5f1.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\4a80acb2-fc5e-422e-ba5d-45430496e5f1.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4fe3c5aa-0d79-4cdf-8af0-f5cc3ca61374.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\4fe3c5aa-0d79-4cdf-8af0-f5cc3ca61374.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4fe3c5aa-0d79-4cdf-8af0-f5cc3ca61374.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\4fe3c5aa-0d79-4cdf-8af0-f5cc3ca61374.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\600980c3-9b4d-4b44-895e-9debfd78379e.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\600980c3-9b4d-4b44-895e-9debfd78379e.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\600980c3-9b4d-4b44-895e-9debfd78379e.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\600980c3-9b4d-4b44-895e-9debfd78379e.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\7d322221-3627-46a8-b207-9dd66fca0117.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\7d322221-3627-46a8-b207-9dd66fca0117.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\7d322221-3627-46a8-b207-9dd66fca0117.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\7d322221-3627-46a8-b207-9dd66fca0117.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\81b28bdc-13fa-4017-beeb-fe920946b81c.png
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\9206e7b3-f255-41c2-ad67-c006f7509558.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\9206e7b3-f255-41c2-ad67-c006f7509558.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\9206e7b3-f255-41c2-ad67-c006f7509558.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\9206e7b3-f255-41c2-ad67-c006f7509558.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\99ee1fc0-3a9f-4fa6-b976-49cfda299701.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\99ee1fc0-3a9f-4fa6-b976-49cfda299701.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\99ee1fc0-3a9f-4fa6-b976-49cfda299701.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\99ee1fc0-3a9f-4fa6-b976-49cfda299701.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\9faec5f8-d4e1-4864-8105-b5bcae42789b.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\9faec5f8-d4e1-4864-8105-b5bcae42789b.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\9faec5f8-d4e1-4864-8105-b5bcae42789b.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\9faec5f8-d4e1-4864-8105-b5bcae42789b.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ac920b76-b5f2-4d10-97c4-602c844118b4.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\ac920b76-b5f2-4d10-97c4-602c844118b4.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ac920b76-b5f2-4d10-97c4-602c844118b4.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\ac920b76-b5f2-4d10-97c4-602c844118b4.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\be6ebe23-69f8-4540-a54a-5e50ae5cf3c1.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\be6ebe23-69f8-4540-a54a-5e50ae5cf3c1.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\be6ebe23-69f8-4540-a54a-5e50ae5cf3c1.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\be6ebe23-69f8-4540-a54a-5e50ae5cf3c1.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c1b3e5b0-e3d6-4b9b-b128-7c0e2a597002.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c1b3e5b0-e3d6-4b9b-b128-7c0e2a597002.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c1b3e5b0-e3d6-4b9b-b128-7c0e2a597002.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c1b3e5b0-e3d6-4b9b-b128-7c0e2a597002.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c34cf7a7-e60a-4ffc-b2e0-0ae75756ad9c.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c34cf7a7-e60a-4ffc-b2e0-0ae75756ad9c.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c34cf7a7-e60a-4ffc-b2e0-0ae75756ad9c.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c34cf7a7-e60a-4ffc-b2e0-0ae75756ad9c.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c7e1e358-7011-4c3b-924d-0c73dc248691.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c7e1e358-7011-4c3b-924d-0c73dc248691.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c7e1e358-7011-4c3b-924d-0c73dc248691.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c7e1e358-7011-4c3b-924d-0c73dc248691.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\cv_debug.log
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\d012000f-3f62-47b2-b5c0-5e8b11f4940e.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\d012000f-3f62-47b2-b5c0-5e8b11f4940e.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\d012000f-3f62-47b2-b5c0-5e8b11f4940e.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\d012000f-3f62-47b2-b5c0-5e8b11f4940e.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ed3e3eb2-d418-4f3b-afe2-60ecf5f49686.png
+[2024-12-13 19:05:38] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ffcbc55b-7802-4c5a-870e-1b413a4fe2ea.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\ffcbc55b-7802-4c5a-870e-1b413a4fe2ea.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ffcbc55b-7802-4c5a-870e-1b413a4fe2ea.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\ffcbc55b-7802-4c5a-870e-1b413a4fe2ea.tmp: 另一个程序正在使用此文件，进程无法访问。
+[2024-12-13 19:05:38] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\QQ_1734087831602.png
+[2024-12-13 19:05:38] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\QQ_1734087865975.png
+[2024-12-13 19:05:38] 详细: 警告: 无法删除目录: C:\Users\dwgx1337\AppData\Local\Temp 错误: C:\Users\dwgx1337\AppData\Local\Temp
+[2024-12-13 19:05:38] 详细: 无法删除目录: C:\Users\dwgx1337\AppData\Local\Temp 错误: C:\Users\dwgx1337\AppData\Local\Temp
+[2024-12-13 19:05:38] 事件: 目录 C:\Users\dwgx1337\AppData\Local\Temp 已删除。
+[2024-12-13 19:05:38] 事件: 清理用户临时文件。
+[2024-12-13 19:05:38] 事件: 执行高级清理完成。
+[2024-12-13 19:05:40] 详细: 警告: 无法删除目录: C:\Windows\Temp 错误: C:\Windows\Temp
+[2024-12-13 19:05:40] 详细: 无法删除目录: C:\Windows\Temp 错误: C:\Windows\Temp
+[2024-12-13 19:05:40] 事件: 清理系统临时文件。
+[2024-12-13 19:05:40] 事件: 执行高级清理完成。
+[2024-12-13 19:05:43] 事件: 回收站已清空。
+[2024-12-13 19:05:43] 事件: 清空回收站。
+[2024-12-13 19:05:43] 事件: 执行高级清理完成。
+[2024-12-13 19:05:44] 事件: 回收站已清空。
+[2024-12-13 19:05:44] 事件: 清空回收站。
+[2024-12-13 19:05:44] 事件: 执行高级清理完成。
+[2024-12-13 19:05:52] 事件: DNS缓存已刷新。
+[2024-12-13 19:05:52] 事件: 刷新DNS缓存。
+[2024-12-13 19:05:52] 事件: 执行高级清理完成。
+[2024-12-13 19:05:53] 详细: 警告: 无效选择: 
+[2024-12-13 19:05:53] 详细: 用户输入无效选择: 
+[2024-12-13 19:05:53] 事件: 用户取消了高级清理操作。
+[2024-12-13 19:06:16] 事件: 用户开始高级文件搜索，目录: D:\, 文件名: .mp3, 最小大小: 不限制, 最大大小: 不限制, 开始时间: 不限制, 结束时间: 不限制
+[2024-12-13 19:06:16] 详细: 开始遍历目录: D:\
+[2024-12-13 19:06:20] 详细: 无法访问文件: D:\Config.Msi
+[2024-12-13 19:06:27] 详细: 无法访问文件: D:\System Volume Information
+[2024-12-13 19:06:27] 事件: 高级文件搜索完成，未找到符合条件的文件。
+[2024-12-13 19:06:58] 详细: 警告: 目录不存在，请检查后重试。
+[2024-12-13 19:06:58] 详细: 用户输入的目录不存在: D
+[2024-12-13 19:07:09] 事件: 用户开始高级文件搜索，目录: D:, 文件名: mp4, 最小大小: 不限制, 最大大小: 不限制, 开始时间: 不限制, 结束时间: 不限制
+[2024-12-13 19:07:09] 详细: 开始遍历目录: D:
+[2024-12-13 19:07:09] 事件: 高级文件搜索完成，未找到符合条件的文件。
+[2024-12-13 19:07:33] 事件: 用户开始高级文件搜索，目录: D:, 文件名: Southside.zip, 最小大小: 不限制, 最大大小: 不限制, 开始时间: 不限制, 结束时间: 不限制
+[2024-12-13 19:07:33] 详细: 开始遍历目录: D:
+[2024-12-13 19:07:33] 事件: 高级文件搜索完成，未找到符合条件的文件。
+[2024-12-13 19:07:47] 事件: 用户开始基本文件搜索，目录: D:, 文件名: Southside.zip
+[2024-12-13 19:07:47] 详细: 开始遍历目录: D:
+[2024-12-13 19:07:47] 事件: 基本文件搜索完成，未找到符合条件的文件。
+[2024-12-13 19:07:57] 详细: 警告: 目录不存在，请检查后重试。
+[2024-12-13 19:07:57] 详细: 用户输入的目录不存在: 
+[2024-12-13 19:07:59] 详细: 警告: 目录不存在，请检查后重试。
+[2024-12-13 19:07:59] 详细: 用户输入的目录不存在: D

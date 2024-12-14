@@ -30,7 +30,7 @@ public class WindowsToolsModule implements Module {
             System.out.println("[ESC] 返回主菜单");
             System.out.println("---------------------------------------------");
             System.out.print("请选择工具 (1-8 或 ESC): ");
-            String toolSel = Utils.scanner.nextLine().trim().toUpperCase();
+            String toolSel = Utils.getUserInput().trim().toUpperCase();
             if (toolSel.equals("ESC")) {
                 Utils.logDetail("用户选择返回主菜单。");
                 return;

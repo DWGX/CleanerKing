@@ -4,6 +4,8 @@ package org.CleanerKing.modules;
 import org.CleanerKing.Module;
 import org.CleanerKing.Utils;
 
+import java.io.File;
+
 /**
  * 一键清理模块，执行常见的清理任务。
  */

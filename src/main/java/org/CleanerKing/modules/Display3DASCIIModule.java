@@ -17,6 +17,6 @@ public class Display3DASCIIModule implements Module {
     @Override
     public void execute() {
         Utils.display3DASCII();
-        Utils.pause();
+        // Utils.pause(); // 保留
     }
 }

@@ -1,0 +1,587 @@
+[2024-12-14 07:55:44] 事件: 日志记录已启用。
+[2024-12-14 07:55:44] 事件: 用户启用了日志保存。
+[2024-12-14 07:57:24] 事件: 日志记录已启用。
+[2024-12-14 07:57:49] 事件: 用户开始一键清理任务。
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\004feb7b-39c5-4ba7-b176-73dbf6c11b27.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\004feb7b-39c5-4ba7-b176-73dbf6c11b27.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\004feb7b-39c5-4ba7-b176-73dbf6c11b27.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\004feb7b-39c5-4ba7-b176-73dbf6c11b27.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\0121f381-b342-45d0-8a35-4593a8af31ee.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\0121f381-b342-45d0-8a35-4593a8af31ee.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\0121f381-b342-45d0-8a35-4593a8af31ee.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\0121f381-b342-45d0-8a35-4593a8af31ee.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\0218d352-3e56-4964-87ac-e4e7989a1299.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\02e6c29e-ea69-4d82-9ea9-b102efe5de7a.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\0c39bb67-1a16-4884-be57-997ab72d3505.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\0ce6835c-691e-4b7a-9bda-bdbc2e92cd94.tmp.png
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\0dd1c92f-20e3-40de-a0e8-f52e9b58dd1e.tmp.js
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\14c66c21-1f5a-49f2-b1f2-e7190c543027.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\14c66c21-1f5a-49f2-b1f2-e7190c543027.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\14c66c21-1f5a-49f2-b1f2-e7190c543027.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\14c66c21-1f5a-49f2-b1f2-e7190c543027.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\194bf11f-0879-404b-8747-3ccac49a86aa.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\1c1357c1-5bf2-4431-892d-8c5d9ad3e875.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\1d20df0a-3110-4556-a5d2-021fb66ba726.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\261b8b79-af6b-4feb-95d4-c06a481d49f7.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\33cc4742-ae54-45cd-a5f6-c0cf5d8b5e7c.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\3f01803b-0dec-42d3-854c-4f7a1a345ee6.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\3f1172d2-7bfb-4507-b42c-b293ab8f1d09.tmp.png
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\3f5bd8b4-6926-426f-a443-d708f7e63b99.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\409cbe40-5bb1-4825-b58f-bc1ba69c92b8.tmp.js
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4a7a00fc-fa2e-4a70-bc90-11fd1f4d5d08.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\4a7a00fc-fa2e-4a70-bc90-11fd1f4d5d08.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4a7a00fc-fa2e-4a70-bc90-11fd1f4d5d08.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\4a7a00fc-fa2e-4a70-bc90-11fd1f4d5d08.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4f6d1615-ec1f-4eaa-9684-680b7cdeee01.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\4f6f51e5-5fab-4383-9519-80745dbe0317.tmp.js
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\59ccede4-8990-447e-91e0-1fb2bdc37f9f.tmp.node 错误: C:\Users\dwgx1337\AppData\Local\Temp\59ccede4-8990-447e-91e0-1fb2bdc37f9f.tmp.node
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\59ccede4-8990-447e-91e0-1fb2bdc37f9f.tmp.node 错误: C:\Users\dwgx1337\AppData\Local\Temp\59ccede4-8990-447e-91e0-1fb2bdc37f9f.tmp.node
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\66e0ff8a-576a-4a49-80e4-e91fc0a80865.tmp.png
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\68a29135-be46-479f-85f7-2aba00677d83.png
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\6bf08dc1-8c57-4555-85d2-d57ca4aedc1e.tmp.html
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\8a5e36fb-02f7-464e-8c0b-eff608064ccc.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\90437dea-ff64-4671-b063-205de9303fda.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\90b9c6c4-8429-43a3-81c7-73014e85173b.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\92f97a07-757e-4147-b444-55181592f089.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\948fbef1-f084-4c1a-8a90-e585e8cbf7a5.tmp.js
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\9cb333bc-f503-41cd-9005-dcd1dcbe0ce7.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\9cb333bc-f503-41cd-9005-dcd1dcbe0ce7.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\9cb333bc-f503-41cd-9005-dcd1dcbe0ce7.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\9cb333bc-f503-41cd-9005-dcd1dcbe0ce7.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\adf46968-c268-48e8-93f7-6c7ff60bd72a.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\adf46968-c268-48e8-93f7-6c7ff60bd72a.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\adf46968-c268-48e8-93f7-6c7ff60bd72a.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\adf46968-c268-48e8-93f7-6c7ff60bd72a.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\bc6cf0c8-57ff-4a68-94f8-5293d45dc557.tmp.gif
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c3d0cfe8-5c15-4cfb-aa0e-9974bd139b08.tmp.js
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c54ed6fa-3da0-4d1e-ba6c-934d34fe0b1c.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c54ed6fa-3da0-4d1e-ba6c-934d34fe0b1c.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c54ed6fa-3da0-4d1e-ba6c-934d34fe0b1c.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\c54ed6fa-3da0-4d1e-ba6c-934d34fe0b1c.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c58a7365-9536-49ed-8b49-f3b306449c48.tmp.html
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c618a81a-e2c2-43de-a296-d8bbd3631c7b.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\c758933c-c260-47ca-b6f2-31bd0a08c6cd.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\cb98441f-4645-4243-aaa6-7c9a51b24952.tmp.css
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\d4493c64-aa08-4233-bc48-ff049e273679.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\d4493c64-aa08-4233-bc48-ff049e273679.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\d4493c64-aa08-4233-bc48-ff049e273679.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\d4493c64-aa08-4233-bc48-ff049e273679.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\de2692b6-e9e3-4be0-a9b3-e1e60b9f17f2.tmp.css
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\e5aad8ee-b111-4133-bd56-e641bcd36e95.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\e5aad8ee-b111-4133-bd56-e641bcd36e95.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\e5aad8ee-b111-4133-bd56-e641bcd36e95.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\e5aad8ee-b111-4133-bd56-e641bcd36e95.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\e8aec196-5f40-4276-b4e9-67bec41d36e7.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ec4774fb-6b4d-4af9-bedc-6ce9ee27d1bb.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\ecbdf281-9768-42b1-a2ed-177ea0ed3241.tmp.css
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\eea75fdf-26b6-413d-b781-086e0cad4966.png
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\f57753b6-9c0e-444c-a322-db7a26bbba02.tmp.js
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\fbca61ee-a58e-4429-85e1-6bfaabadd01a.tmp.html
+[2024-12-14 07:57:49] 详细: 警告: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\fc2c2342-bfc7-4905-a661-9349768e5a5d.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\fc2c2342-bfc7-4905-a661-9349768e5a5d.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 无法删除文件: C:\Users\dwgx1337\AppData\Local\Temp\fc2c2342-bfc7-4905-a661-9349768e5a5d.tmp 错误: C:\Users\dwgx1337\AppData\Local\Temp\fc2c2342-bfc7-4905-a661-9349768e5a5d.tmp: 另一个程序正在使用此文件，进程无法访问。
+
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\fe19d501-b8c9-4022-b31a-3910d9c433c3.tmp.gif
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\hsperfdata_dwgx1337\14164
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\hsperfdata_dwgx1337\4916
+[2024-12-14 07:57:49] 详细: 删除目录: C:\Users\dwgx1337\AppData\Local\Temp\hsperfdata_dwgx1337
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\QQ_1734133743535.png
+[2024-12-14 07:57:49] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Temp\QQ_1734133853665.png
+[2024-12-14 07:57:49] 详细: 警告: 无法删除目录: C:\Users\dwgx1337\AppData\Local\Temp 错误: C:\Users\dwgx1337\AppData\Local\Temp
+[2024-12-14 07:57:49] 详细: 无法删除目录: C:\Users\dwgx1337\AppData\Local\Temp 错误: C:\Users\dwgx1337\AppData\Local\Temp
+[2024-12-14 07:57:49] 事件: 目录 C:\Users\dwgx1337\AppData\Local\Temp 已删除。
+[2024-12-14 07:57:49] 详细: 警告: 无法删除受保护的目录或其子目录: C:\Windows\Temp
+[2024-12-14 07:57:49] 详细: 用户尝试删除受保护的目录或其子目录: C:\Windows\Temp
+[2024-12-14 07:57:50] 详细: 警告: 清空回收站时发生错误。
+[2024-12-14 07:57:50] 详细: 清空回收站时发生错误，退出代码: 1
+[2024-12-14 07:57:50] 详细: 警告: 无法删除受保护的目录或其子目录: C:\Windows\SoftwareDistribution\Download
+[2024-12-14 07:57:50] 详细: 用户尝试删除受保护的目录或其子目录: C:\Windows\SoftwareDistribution\Download
+[2024-12-14 07:57:50] 详细: 警告: 无法删除受保护的目录或其子目录: C:\Windows\Prefetch
+[2024-12-14 07:57:50] 详细: 用户尝试删除受保护的目录或其子目录: C:\Windows\Prefetch
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\5f7b5f1e01b83767.automaticDestinations-ms
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\f01b4d95cf55d32a.automaticDestinations-ms
+[2024-12-14 07:57:50] 详细: 删除目录: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+[2024-12-14 07:57:50] 详细: 删除目录: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+[2024-12-14 07:57:50] 详细: 警告: 无法删除目录: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent 错误: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent
+[2024-12-14 07:57:50] 详细: 无法删除目录: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent 错误: C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent
+[2024-12-14 07:57:50] 事件: 目录 C:\Users\dwgx1337\AppData\Roaming\Microsoft\Windows\Recent 已删除。
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0004f32256177356_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\00d14b4d006fefd5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\01f7b9ac312c170d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\022098ebe80912f5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\022f9949ae676c7b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\02abe34013ce5618_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\038f1544c7e10721_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0397b3bc01ab1aee_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\04747b7f5d9e6b00_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0476305eaaecb7e7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\054745dda98359be_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\058bf147ee5a6c13_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\073eb4f15abe9bf8_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0760589932f890f2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\092fe0ea019979a0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0a16ad4183f3aa2c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0a9e672317951ba0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0b4c5de09138ab73_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0b977bc872ae91d7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0bc3f5dcbca15b1f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0c8386efbad47abc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0d75d64c17fa0a51_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\0f4ac9517e11c294_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1094b87f670fb074_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\11f77ccf9210895f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1268401e829ed22f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1374f9a654ba855c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\13dcec915cec25f2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\143c46670c7c3984_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\14894bc70d80c52c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\15a294dd9b6f78bb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\15c2cab0ae0015ed_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\16f8d1cda48a9896_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\185358b4be1fdd41_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\19b10a9475dbf002_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\19c15b5ab2532368_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1bcc12e74f2b47f8_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1c1e980f9e41c668_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1c242d16d0fbde93_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1cb027b2f5cf011d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1d70f439a5be3bae_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1d83031d83920af7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1da9b37c045bcc52_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1f7bff712fe61d14_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\1fa6e963796267c6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\202f650d773ccd09_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\205b4bfc1c728e2c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\21a9cda959ec0aa9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2230e3737665b466_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\228e772f3891c04b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\22e32857214fb08d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\22f588f41415da99_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\230b8053b8bed34b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\233fcbcf735e3098_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\239d05d23d4cc390_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\23f84c6b88cdf6d9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\240b6f762f6456d0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\251a3920b8c41e1f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\254ea7360305bc2e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\25e0ca4e22654cdf_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\26b47ddaef8b489e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\26ee58bace978861_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\27933e4b25b52cb3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2893cd78377e58da_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\28eef90f69faf624_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\294bfe7f068e2139_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\297a5f6e2c8277b5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\29d870ddca701ec0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\29eb0ef9fe464329_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2aad1f50d1ed7899_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2af7757c2f9f43cb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2afab388bd0db429_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2b35a40baa3fa5e3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2bb5b8e9669a238f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2c94cd606274a574_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2cfb11831dc78599_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2d640fd8ae60c949_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2e3234e148a1fe3a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2ee9c976a9a6de11_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\2f44bf65eba6b395_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3087187c441cd86e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3087dfb701ecaec2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\30d8f31a74217886_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\317287650f115e2b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\322e81d096fffdab_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\326b433d13249272_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3298d28c8717af2b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\337f23eb5110378a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\34424b276aa18bb1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3524edc65f344af0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\361b3024aa356d2b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\36d336ea7a764f7d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\36efdb52ea58e26d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\37b09850523b50db_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3805316a7d6b3382_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\39985681bee9a634_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\39a75cbc3094ef58_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\39fd2f6fb7ff8090_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3a3c24272731de4e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3a4119b8730a60ff_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3a5f2f58967df03a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3c0d18b11b1ac0f4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3d0e2ea036bbda17_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3d3b019cd2ad435f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3dc9271280537ae2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3ee4d7b32ab30a5e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\3fb5c2c5730f898b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\41433efe624b0736_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\41a94648a27fbe6f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\41b8eb429e87b502_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\41bdbf0e262b3be1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\421142e8cb9f30fa_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\433d606835cc493a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\439e802a4414258a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\43bd057228d36c5f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\442628fdaadb0aa4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\44de3bd5d4f5eecf_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\45622eceac1b8c39_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\45f1e9b794f1f3ab_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4624e3aaf2fb4461_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\47966ba5da72d8d2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\47bc4a3f448f4a49_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4894f436cbcad778_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\48dedde2029972f5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\49047533b13746ba_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\490b50899a620fb4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4917139e4f4fa96f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4948a9cfa2d846f0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4a7b671325fc1cbd_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4bbeb423b2ec05f7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4c0f4cb0f99ab948_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4cb35f2e79d516fc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4cd67427685b03ab_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4cdcd11ed56d7142_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4d6ab61c19436a0d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4df9ec84aa392c19_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4e5e7ade8c756e0d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\4f3e3049f1b6e1ca_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\501dac8799746b03_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\50271deb7cc3b1c0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\512dabc68d616750_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\51d09860f52d0aec_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\522e9ccf09e27145_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\52576aa479936d0a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5267ed7f67a8ff95_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\534f86c35f76e41e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\53700d9956704890_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\543f5d7cf12fe2bb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\544a7a22505c5a4d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\549adb4383f1b3c6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5546f9b8563d27ea_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\55bd3982c53178c4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\570e9c6090fd2cf5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\58ff84af2cfdd6c1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\594a80f951404ce1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5992e61274394fb7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5a1286e70004a696_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5a1750653559b705_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5a2cc4a391738999_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5b3f888a2410e94c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5b5aec88ad79eda0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5d4056438d1dc78e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5db19cd1ff984647_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5e440c5bd19e0e63_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5e71c4274c85a807_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5e8131407aaead4c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5f3ceccd159abab6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\5f7f663fef449b14_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6020d66d11ad34af_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\60e8017a0201e654_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\626202b27af9e9fc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\63f352b4c78480f5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6488796d98b9baa6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\64a8019e7507307a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\64fdc77480b1fed1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6787702bbd984587_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\67a311578eb22d77_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\687ce98376f3d407_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6906b6627628526c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\690daad300e8b259_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6936770faddd861c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\694602a6cfc06341_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6972da838432e0d7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\69bacc8553293b73_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6a37e9353e23215f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6a3e27c9a695a308_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6bba0cf576b1daa8_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6de2844e56bebe68_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6de84ac03661d6f3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6eac3220b0e24ba3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6ee25f6d75edfbf1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6ef0d9958dd510a2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6f314748df1158bd_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\6f5fc5f1cd430559_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\706fd502738b6c18_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7071157d4b899606_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\70ea74c14ed9f961_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7164a6d9e5b96b06_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7167aafa7df80a25_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\72dda5cb66275eac_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\741177cf2bfabcc2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7473f2e477359fd2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\75b9c2ba44a2f819_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\769774ae46b7b1d7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\76a13e2be2946596_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\76aab9f7bf06878e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\76cddd1826c83eb1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\777db20473dafd62_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\778a9f990551f2b9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\787905599ce7560d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7986fcf91968a17d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\79b52c331ad5a569_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7aded7f10f348e19_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7b658bda8a755740_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7bcc7386b30ec0ee_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7d00317c0b2ce3cf_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7eff00fe1df5215e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7f0bd45d9553f646_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\7f9014075ee64de9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\80eb6fe2b744d02a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8103c6b1a1346662_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\813f2248c56263bd_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\817c8effdb0f1573_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8420e2ae06fbb46b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\85104b035247a30c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\856dd9ca03a6914b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\86497937d5a17e7e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\86b03678b6127d0c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\87856b7cb39c4e5e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\88012c29d3f9c42a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\894a75fa65576546_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\89b0fa81237467c5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8aff6cdb724a46f0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8b4867ea88ea62ca_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8b765ac493118315_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8c1650a60205bc0f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8c49a7a50eb87410_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8c9615f75ff91c11_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8cb42d8ecdd260fc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8d87adef0c223f66_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8db7c6a99515dfca_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8f6220302c452838_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\8fd35a92247278f8_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\91faf7dd880b32a6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9274238915e1f49f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\92a5a20f8ab8f8d9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\935e290e25a0776d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\94088924d70c5245_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\94251e23db931a10_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\94758d5945c49fd1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\94b888c6c562da93_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\95ff8d12c7049f4e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9613a0fc946cbc11_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9682fb79f267518b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\970f5e15732113a6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9755911ed8f9441b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\98bd11a11e37dad1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\98d5d5afec74467c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\98f63db8d972988b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\991e9c79eb4ee572_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9a71c47e5e7db30f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9a8c12fe5f93dd27_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9b4324b6292d16a3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9bf545a2b1ad470f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9c6d5d60b778590f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9cfe4f00c92fddef_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9d9a0a8edd63f230_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9e5bb35ab285c1f3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9edfe038ce267fb2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\9f29c79576384494_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a0b3731dc03b617e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a0dc2f2472d57373_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a1887d25017557bc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a1913200bb912bb3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a2fd0cdd68be5784_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a30e8da983c6b2b1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a3190167b21ce73f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a32c1d4cfbd5124f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a376047ed5842f38_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a6aa5d71849ef9ed_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a6c22a8e90de3ef6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a70ee58489d4fe5a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a75569b0879d2627_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\a799b63c819e8198_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ab0326b4f5cd513a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ab256b60d9bc96f5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ad81bf7531ed6959_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\adbc26338683ab2e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ae0f58fdcc3384d4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\af0e567ea1c9c9e2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\af1b57196d8a1644_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\af2e6e83c0e1ec1e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\af80c27981f8af26_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b077aeef017e4d22_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b0800fd4cf33038f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b08b2033f7cc4ba1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b11397b71905fa17_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b124e9859e17b6bb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b138eafcfd1d4aae_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b169366c2715a840_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b1b3f031d94b651c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b263d42e67a21a94_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b318649bc5bc82db_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b452890fd899a34b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b46fe94b0969814d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b59e14e6cae33c23_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b630eef0c2929b03_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b6cc866a9e03aa85_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b6e50487b07741b3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b77e19d5657db814_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b96ad0dd456ce62a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b9824d4d406b81f0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b99e1e7ca8826d2e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\b9c6ccb00cfb8362_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ba1bef46106295e9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ba36469624111adb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\baa569fd5785bdd0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\baf70286e0251e61_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bb107dac4fce042b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bbeec2378df4a588_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bc1653a748df1b9d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bca80568bea70df0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bcbc03c3cbb43550_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bceea7e16ea8edc3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bd8a6788d2b25156_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\be4e410eeda11514_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\be8cbc1f04217277_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bef9c3bf0b023378_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\bf11011f6bee5ad4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c19d525aa0947a6f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c21bf4bfea660a82_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c2d0fc8fff958af1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c326d7a9814b337c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c35468068f8914b3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c3d68fc60a893912_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c574fef689562020_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c5e3948a3f6d197a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c62c1ac8a19e722d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c7286366ca26dce6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c7ba12c8b6e99d3c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\c9b0bb15e662f666_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ca29785dc0056549_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ca3dc373c49719b5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cb3eb74ee10fe4bc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cb498a9ea0d4ed5e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cc6bfd967f200496_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cc75395bda68a9e0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cd3c6967cb38a12e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cd5a16e6f549040a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cd85f945a5aa22f6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\cdd0ef98e79a68e3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ce589dd67082eec9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ce999a720664589a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ce99fa920b8d9ccb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d022b4f0814a590b_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d07adff0b0d50db1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d0fd8b88dfc5ac7c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d142651ac7f0e302_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d16177df831febfc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d18b000993f49600_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d2a407028892c816_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d3057d2f8ef341ec_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d34a88bd711c2959_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d35c8eb61908120f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d4385a825895c2be_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d43a52a66e01e417_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d462be2545c730a4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d5fc19122730a976_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d679fd02d6812a9e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d71f54fb94fe53c0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d987a9850cf55a49_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\d9dd624af296c61a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\daa1f089ba00dee4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\db6b67a8367b49d1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\db984b3ce38b08a6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\dbf272b42cc39801_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\dca08f1d16f837d7_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\dd3820c34d1ce9d5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\dd9de7a727552aa1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ddda1c6ca2d4ce3e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\de5d01bacaa04fbe_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\dee40d3825370217_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e0196cf65b78d1e1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e03dff6ed9c60a70_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e0c26e405a7b8a5e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e198cda001a46c6d_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e1ec956d3b7f4c98_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e2c39500eaf99edb_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e38b7fb4060cc942_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e4ce4bf9dcc295ed_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e5543afa8340eb45_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e673808e765132fc_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e6d91466ca8f525e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e7465103f39342b6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e76bfcd2a2df85a1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e7d2472446f56706_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e8dc8fdbcdd1b0e2_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e9250c073b1faf77_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e925ba9cebf74198_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e952f0acee68fe87_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\e9a36cd20ec3c16a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ea280404bb14596e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ea6604c3f406a7ab_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\eac59ff571c2227e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\eb62fa3c3bfad1d9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\eb8a772dcf738d46_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ebb6455e8e40c8e6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ebf1318bd64c7511_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ec979f22b664e3d0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ef24b1efc79dbefa_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ef84848a4d2a6fdd_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\efde4c29ae8fa747_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f042d42225e753ae_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f04d96cf5ec53c92_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f18815c117967463_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f218058863d6c32a_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f398025b1b6f6ae9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f421453e41194c3f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f497a53c0603ffca_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f4fd8d046bceac30_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f51dc5f0866bf66c_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f52f838fbf8ccf62_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f5b13d8a8f46929f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f63e8d575ca5eaa0_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f676078bf220a56e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f6b9e11efbca83a3_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f6f6bace501249ba_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f74e58e859aabdce_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f770158acae98d56_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f8cc72284ec6943e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f8dcab2bae5a71b9_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\f9b2dc31a4650ccd_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fb7ad53b905657e4_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fc2801196798de4e_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fc31a44ac4e6bca6_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fd9d485678527e6f_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fde61fac60ac8e28_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fe3a26eef27560d5_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\fe688653d9d187b1_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\ff354f155e908828_0
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\index
+[2024-12-14 07:57:50] 详细: 删除文件: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\index-dir\the-real-index
+[2024-12-14 07:57:50] 详细: 删除目录: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data\index-dir
+[2024-12-14 07:57:50] 详细: 删除目录: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache\Cache_Data
+[2024-12-14 07:57:50] 详细: 删除目录: C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache
+[2024-12-14 07:57:50] 事件: 目录 C:\Users\dwgx1337\AppData\Local\Google\Chrome\User Data\Default\Cache 已删除。
+[2024-12-14 07:57:50] 事件: DNS缓存已刷新。
+[2024-12-14 07:57:50] 事件: 一键清理任务完成。
+[2024-12-14 08:05:34] 事件: 日志记录已启用。
+[2024-12-14 08:05:56] 事件: DNS 设置已更新，主 DNS: 8.8.8.8，备用 DNS: 223.5.5.5
+[2024-12-14 08:08:25] 事件: 日志记录已启用。
+[2024-12-14 08:09:21] 事件: DNS 设置已更新，主 DNS: 114.114.114.114，备用 DNS: 无
+[2024-12-14 08:09:43] 事件: DNS 设置已更新，主 DNS: 114.114.114.114，备用 DNS: 223.5.5.5
+[2024-12-14 08:10:47] 事件: 日志记录已启用。
+[2024-12-14 08:16:18] 事件: 日志记录已启用。
+[2024-12-14 08:19:57] 事件: 日志记录已启用。
+[2024-12-14 08:20:19] 详细: 警告: 未能检测到活动的网络接口。请手动设置 DNS。
+[2024-12-14 08:20:19] 详细: 未能检测到活动的网络接口。
+[2024-12-14 08:20:35] 详细: 警告: 未能检测到活动的网络接口。请手动设置 DNS。
+[2024-12-14 08:20:35] 详细: 未能检测到活动的网络接口。
+[2024-12-14 08:22:16] 详细: 警告: 未能检测到活动的网络接口。请手动设置 DNS。
+[2024-12-14 08:22:16] 详细: 未能检测到活动的网络接口。
+[2024-12-14 08:25:24] 事件: 日志记录已启用。
+[2024-12-14 08:25:47] 详细: 警告: 未能检测到活动的网络接口。请手动设置 DNS。
+[2024-12-14 08:25:47] 详细: 未能检测到活动的网络接口。
+[2024-12-14 08:28:48] 事件: 日志记录已启用。
+[2024-12-14 08:29:07] 详细: 警告: 未能检测到活动的网络接口。请手动设置 DNS。
+[2024-12-14 08:29:07] 详细: 未能检测到活动的网络接口。
+[2024-12-14 08:35:07] 事件: 日志记录已启用。
+[2024-12-14 08:35:16] 详细: 警告: 未能检测到活动的网络接口。请手动设置 DNS。
+[2024-12-14 08:35:16] 详细: 未能检测到活动的网络接口。
+[2024-12-14 08:38:08] 事件: 日志记录已启用。
+[2024-12-14 08:38:29] 详细: 警告: 执行命令失败: netsh interface ipv4 set dns name="Realtek PCIe GbE Family Controller" static 114.114.115.115 primary
+[2024-12-14 08:38:29] 详细: 执行命令失败: netsh interface ipv4 set dns name="Realtek PCIe GbE Family Controller" static 114.114.115.115 primary，退出代码: 1
+[2024-12-14 08:38:29] 详细: 警告: 执行命令失败: netsh interface ipv4 add dns name="Realtek PCIe GbE Family Controller" 223.5.5.5 index=2
+[2024-12-14 08:38:29] 详细: 执行命令失败: netsh interface ipv4 add dns name="Realtek PCIe GbE Family Controller" 223.5.5.5 index=2，退出代码: 1
+[2024-12-14 08:38:29] 事件: DNS 设置已更新，主 DNS: 114.114.115.115，备用 DNS: 223.5.5.5
+[2024-12-14 08:46:30] 事件: 日志记录已启用。
+[2024-12-14 08:46:30] 详细: 程序启动时检测到缺少管理员权限。
+[2024-12-14 08:47:45] 事件: 日志记录已启用。
