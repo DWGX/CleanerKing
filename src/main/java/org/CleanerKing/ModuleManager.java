@@ -10,11 +10,12 @@ import java.util.Scanner;
  */
 public class ModuleManager {
     private Map<String, Module> modules = new LinkedHashMap<>();
-    private Scanner scanner = new Scanner(System.in);
+    private Scanner scanner = Utils.scanner;
 
     /**
      * 注册一个模块，键为菜单选项
-     * @param key 菜单选项
+     *
+     * @param key    菜单选项
      * @param module 模块实例
      */
     public void registerModule(String key, Module module) {
@@ -42,6 +43,7 @@ public class ModuleManager {
                 String confirm = scanner.nextLine().trim().toUpperCase();
                 if (confirm.equals("Y")) {
                     System.out.println("已退出程序。感谢使用！");
+                    Utils.closeScanner();
                     System.exit(0);
                 } else {
                     continue;

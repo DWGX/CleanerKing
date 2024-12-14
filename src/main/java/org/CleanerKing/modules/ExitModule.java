@@ -23,6 +23,7 @@ public class ExitModule implements Module {
             case "Y":
                 Utils.logEvent("用户确认退出程序。");
                 System.out.println("已退出程序。感谢使用！");
+                Utils.closeScanner();
                 System.exit(0);
                 break;
             case "N":

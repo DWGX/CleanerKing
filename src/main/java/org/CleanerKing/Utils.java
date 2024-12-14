@@ -1,7 +1,6 @@
 // File: src/org/CleanerKing/Utils.java
 package org.CleanerKing;
 
-import org.jline.keymap.KeyMap;
 import org.jline.reader.LineReader;
 import org.jline.reader.LineReaderBuilder;
 import org.jline.reader.impl.DefaultParser;
@@ -19,7 +18,7 @@ import java.util.function.Consumer;
  * 工具类，包含常用的静态方法和常量。
  */
 public class Utils {
-    public static Scanner scanner = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in, "UTF-8");
     public static final String TEMP_DIR = System.getProperty("java.io.tmpdir");
     public static final String USER_TEMP = System.getenv("TEMP");
     public static final String SYSTEM_TEMP = "C:\\Windows\\Temp";
@@ -31,41 +30,66 @@ public class Utils {
     public static final String CHROME_CACHE = System.getenv("LOCALAPPDATA") + "\\Google\\Chrome\\User Data\\Default\\Cache";
     public static final String FIREFOX_CACHE = System.getenv("APPDATA") + "\\Mozilla\\Firefox\\Profiles";
 
-    // ANSI颜色代码，默认设置
-    private static String asciiArtColor = "\033[1;34m"; // 蓝色
-    private static String loadingAnimationColor = "\033[1;32m"; // 绿色
+    // 实例化Settings对象
+    private static final Settings settings = new Settings();
 
     // Logging
-    private static boolean loggingEnabled = false;
+    private static boolean loggingEnabled = settings.isLoggingEnabled();
     private static PrintWriter logWriter = null;
     private static final String LOG_FILE_PATH = "cleanerking.log";
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     // Loading Animation Setting
-    private static boolean showLoadingAnimation = true;
+    private static boolean showLoadingAnimation = settings.isShowLoadingAnimation();
+
+    // Protected Directories to prevent accidental deletion
+    private static final List<String> PROTECTED_DIRECTORIES = Arrays.asList(
+            "C:\\Windows",
+            "C:\\Program Files",
+            "C:\\Program Files (x86)",
+            "C:\\ProgramData"
+    );
+
+    /**
+     * 初始化日志记录，如果启用的话。
+     */
+    static {
+        if (loggingEnabled) {
+            try {
+                logWriter = new PrintWriter(new OutputStreamWriter(new FileOutputStream(LOG_FILE_PATH, true), "UTF-8"), true);
+                logEvent("日志记录已启用。");
+            } catch (IOException e) {
+                System.out.println("无法启用日志记录: " + e.getMessage());
+                loggingEnabled = false;
+            }
+        }
+    }
 
     /**
      * 设置 3D ASCII 艺术标题颜色。
      */
     public static void setAsciiArtColor(String colorCode) {
-        asciiArtColor = colorCode;
+        settings.setAsciiArtColor(colorCode);
     }
 
     /**
      * 设置加载动画颜色。
      */
     public static void setLoadingAnimationColor(String colorCode) {
-        loadingAnimationColor = colorCode;
+        settings.setLoadingAnimationColor(colorCode);
     }
 
     /**
      * 启用或禁用日志保存。
      */
     public static void enableLogging(boolean enable) {
+        settings.setLoggingEnabled(enable);
         loggingEnabled = enable;
         if (enable) {
             try {
-                logWriter = new PrintWriter(new OutputStreamWriter(new FileOutputStream(LOG_FILE_PATH, true), "UTF-8"), true);
+                if (logWriter == null) {
+                    logWriter = new PrintWriter(new OutputStreamWriter(new FileOutputStream(LOG_FILE_PATH, true), "UTF-8"), true);
+                }
                 logEvent("日志记录已启用。");
             } catch (IOException e) {
                 System.out.println("无法启用日志记录: " + e.getMessage());
@@ -91,6 +115,7 @@ public class Utils {
      * 设置是否显示加载动画。
      */
     public static void setShowLoadingAnimation(boolean show) {
+        settings.setShowLoadingAnimation(show);
         showLoadingAnimation = show;
     }
 
@@ -111,7 +136,7 @@ public class Utils {
             logWriter.println(logEntry);
         }
         // 同时输出到控制台
-        System.out.println(asciiArtColor + logEntry + "\033[0m");
+        synchronizedPrint(getAsciiArtColor() + logEntry + "\033[0m");
     }
 
     /**
@@ -124,6 +149,20 @@ public class Utils {
             logWriter.println(logEntry);
         }
         // 可以选择是否输出到控制台
+    }
+
+    /**
+     * 获取当前的 ASCII 艺术颜色。
+     */
+    public static String getAsciiArtColor() {
+        return settings.getAsciiArtColor();
+    }
+
+    /**
+     * 获取当前的加载动画颜色。
+     */
+    public static String getLoadingAnimationColor() {
+        return settings.getLoadingAnimationColor();
     }
 
     /**
@@ -152,6 +191,7 @@ public class Utils {
 
     /**
      * 递归删除目录及其内容。
+     *
      * @param dirPath 目录路径
      */
     public static void deleteDirectory(String dirPath) {
@@ -159,6 +199,16 @@ public class Utils {
         if (!dir.exists()) {
             return;
         }
+
+        // 检查是否为受保护的目录
+        for (String protectedDir : PROTECTED_DIRECTORIES) {
+            if (dirPath.equalsIgnoreCase(protectedDir) || dirPath.startsWith(protectedDir + "\\")) {
+                showWarning("无法删除受保护的目录或其子目录: " + dirPath);
+                logDetail("用户尝试删除受保护的目录或其子目录: " + dirPath);
+                return;
+            }
+        }
+
         try {
             Files.walkFileTree(dir.toPath(), new SimpleFileVisitor<Path>() {
                 @Override
@@ -175,6 +225,11 @@ public class Utils {
 
                 @Override
                 public FileVisitResult postVisitDirectory(Path dirPath, IOException exc) throws IOException {
+                    if (exc != null) {
+                        showWarning("访问目录时发生错误: " + dirPath.toString() + " 错误: " + exc.getMessage());
+                        logDetail("访问目录时发生错误: " + dirPath.toString() + " 错误: " + exc.getMessage());
+                        return FileVisitResult.CONTINUE;
+                    }
                     try {
                         Files.delete(dirPath);
                         logDetail("删除目录: " + dirPath.toString());
@@ -200,12 +255,17 @@ public class Utils {
         String command = "PowerShell.exe -NoProfile -Command \"Clear-RecycleBin -Force -ErrorAction SilentlyContinue\"";
         try {
             Process process = Runtime.getRuntime().exec(command);
-            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream(), System.out::println);
-            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream(), System.err::println);
+            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream(), Utils::synchronizedPrint);
+            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream(), Utils::synchronizedPrint);
             new Thread(outputGobbler).start();
             new Thread(errorGobbler).start();
-            process.waitFor();
-            logEvent("回收站已清空。");
+            int exitCode = process.waitFor();
+            if (exitCode == 0) {
+                logEvent("回收站已清空。");
+            } else {
+                showWarning("清空回收站时发生错误。");
+                logDetail("清空回收站时发生错误，退出代码: " + exitCode);
+            }
         } catch (IOException | InterruptedException e) {
             showWarning("清空回收站时发生错误: " + e.getMessage());
             logDetail("清空回收站时发生错误: " + e.getMessage());
@@ -219,12 +279,12 @@ public class Utils {
         try {
             File profilesDir = new File(FIREFOX_CACHE);
             if (profilesDir.exists() && profilesDir.isDirectory()) {
-                File[] profiles = profilesDir.listFiles((dir, name) -> name.endsWith(".default") || name.endsWith(".default-release"));
+                File[] profiles = profilesDir.listFiles((dir, name) -> name.contains(".default"));
                 if (profiles != null) {
                     for (File profile : profiles) {
                         File cacheDir = new File(profile, "cache2\\entries");
                         deleteDirectory(cacheDir.getAbsolutePath());
-                        System.out.println("已清理Firefox缓存: " + cacheDir.getAbsolutePath());
+                        synchronizedPrint("已清理Firefox缓存: " + cacheDir.getAbsolutePath());
                         logEvent("已清理Firefox缓存: " + cacheDir.getAbsolutePath());
                     }
                 }
@@ -242,13 +302,18 @@ public class Utils {
         String command = "cmd.exe /c ipconfig /flushdns";
         try {
             Process process = Runtime.getRuntime().exec(command);
-            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream(), System.out::println);
-            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream(), System.err::println);
+            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream(), Utils::synchronizedPrint);
+            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream(), Utils::synchronizedPrint);
             new Thread(outputGobbler).start();
             new Thread(errorGobbler).start();
-            process.waitFor();
-            System.out.println("DNS缓存已刷新。");
-            logEvent("DNS缓存已刷新。");
+            int exitCode = process.waitFor();
+            if (exitCode == 0) {
+                synchronizedPrint("DNS缓存已刷新。");
+                logEvent("DNS缓存已刷新。");
+            } else {
+                showWarning("刷新DNS缓存时发生错误。");
+                logDetail("刷新DNS缓存时发生错误，退出代码: " + exitCode);
+            }
         } catch (IOException | InterruptedException e) {
             showWarning("刷新DNS缓存时发生错误: " + e.getMessage());
             logDetail("刷新DNS缓存时发生错误: " + e.getMessage());
@@ -257,17 +322,23 @@ public class Utils {
 
     /**
      * 执行外部命令。
+     *
      * @param command 要执行的命令
      */
     public static void executeCommand(String command) {
         try {
             Process process = Runtime.getRuntime().exec(command);
-            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream(), System.out::println);
-            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream(), System.err::println);
+            StreamGobbler outputGobbler = new StreamGobbler(process.getInputStream(), Utils::synchronizedPrint);
+            StreamGobbler errorGobbler = new StreamGobbler(process.getErrorStream(), Utils::synchronizedPrint);
             new Thread(outputGobbler).start();
             new Thread(errorGobbler).start();
-            process.waitFor();
-            logEvent("执行命令: " + command);
+            int exitCode = process.waitFor();
+            if (exitCode == 0) {
+                logEvent("执行命令: " + command);
+            } else {
+                showWarning("执行命令时发生错误，退出代码: " + exitCode);
+                logDetail("执行命令时发生错误: " + command + "，退出代码: " + exitCode);
+            }
         } catch (IOException | InterruptedException e) {
             showWarning("执行命令时发生错误: " + e.getMessage());
             logDetail("执行命令时发生错误: " + e.getMessage());
@@ -279,7 +350,7 @@ public class Utils {
      */
     public static void chkdskMenu() {
         System.out.print("请输入要检查的盘符 (如 C:, 输入 ESC 返回): ");
-        String drv = scanner.nextLine().trim().toUpperCase();
+        String drv = getUserInput().trim().toUpperCase();
         if (drv.equalsIgnoreCase("ESC")) {
             return;
         }
@@ -295,7 +366,7 @@ public class Utils {
         System.out.println("[2] 扫描并修复错误 (/f)");
         System.out.println("[3] 扫描、修复错误并恢复坏道上的信息 (/f /r)");
         System.out.print("请选择模式 (1/2/3): ");
-        String mode = scanner.nextLine().trim();
+        String mode = getUserInput().trim();
         String chkdskCommand = "chkdsk " + drv;
         switch (mode) {
             case "1":
@@ -337,7 +408,7 @@ public class Utils {
             System.out.println("[ESC] 返回主菜单");
             System.out.println("-----------------------------------------");
             System.out.print("请选择要清理的选项 (1-10 或 ESC, 多选用逗号分隔): ");
-            String input = scanner.nextLine().trim().toUpperCase();
+            String input = getUserInput().trim().toUpperCase();
             if (input.equals("ESC")) {
                 return;
             }
@@ -349,61 +420,61 @@ public class Utils {
                 switch (sel) {
                     case "1":
                         deleteDirectory(USER_TEMP);
-                        System.out.println("已清理用户临时文件。");
+                        synchronizedPrint("已清理用户临时文件。");
                         logEvent("清理用户临时文件。");
                         anySelected = true;
                         break;
                     case "2":
                         deleteDirectory(SYSTEM_TEMP);
-                        System.out.println("已清理系统临时文件。");
+                        synchronizedPrint("已清理系统临时文件。");
                         logEvent("清理系统临时文件。");
                         anySelected = true;
                         break;
                     case "3":
                         emptyRecycleBin();
-                        System.out.println("已清空回收站。");
+                        synchronizedPrint("已清空回收站。");
                         logEvent("清空回收站。");
                         anySelected = true;
                         break;
                     case "4":
                         deleteDirectory(SOFTWARE_DISTRIBUTION);
-                        System.out.println("已清理Windows更新缓存。");
+                        synchronizedPrint("已清理Windows更新缓存。");
                         logEvent("清理Windows更新缓存。");
                         anySelected = true;
                         break;
                     case "5":
                         deleteDirectory(PREFETCH);
-                        System.out.println("已清理预取文件。");
+                        synchronizedPrint("已清理预取文件。");
                         logEvent("清理预取文件。");
                         anySelected = true;
                         break;
                     case "6":
                         deleteDirectory(RECENT_FILES);
-                        System.out.println("已清理最近打开的文件记录。");
+                        synchronizedPrint("已清理最近打开的文件记录。");
                         logEvent("清理最近打开的文件记录。");
                         anySelected = true;
                         break;
                     case "7":
                         deleteDirectory(EDGE_CACHE);
-                        System.out.println("已清理Edge浏览器缓存。");
+                        synchronizedPrint("已清理Edge浏览器缓存。");
                         logEvent("清理Edge浏览器缓存。");
                         anySelected = true;
                         break;
                     case "8":
                         deleteDirectory(CHROME_CACHE);
-                        System.out.println("已清理Chrome浏览器缓存。");
+                        synchronizedPrint("已清理Chrome浏览器缓存。");
                         logEvent("清理Chrome浏览器缓存。");
                         anySelected = true;
                         break;
                     case "9":
                         deleteFirefoxCache();
-                        System.out.println("已清理Firefox浏览器缓存。");
+                        synchronizedPrint("已清理Firefox浏览器缓存。");
                         logEvent("清理Firefox浏览器缓存。");
                         anySelected = true;
                         break;
                     case "10":
                         flushDNS();
-                        System.out.println("已刷新DNS缓存。");
+                        synchronizedPrint("已刷新DNS缓存。");
                         logEvent("刷新DNS缓存。");
                         anySelected = true;
                         break;
@@ -421,52 +492,6 @@ public class Utils {
                 logEvent("用户取消了高级清理操作。");
             }
             pause();
-        }
-    }
-
-    /**
-     * 内部类用于处理流输出。
-     */
-    static class StreamGobbler implements Runnable {
-        private InputStream inputStream;
-        private Consumer<String> consumer;
-
-        public StreamGobbler(InputStream inputStream, Consumer<String> consumer) {
-            this.inputStream = inputStream;
-            this.consumer = consumer;
-        }
-
-        @Override
-        public void run() {
-            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"))) {
-                String line;
-                while ((line = reader.readLine()) != null) {
-                    consumer.accept(line);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    /**
-     * 文件搜索类，用于存储文件详情。
-     */
-    public static class FileDetail {
-        private String path;
-        private long size;
-
-        public FileDetail(String path, long size) {
-            this.path = path;
-            this.size = size;
-        }
-
-        public String getPath() {
-            return path;
-        }
-
-        public long getSize() {
-            return size;
         }
     }
 
@@ -504,10 +529,10 @@ public class Utils {
      */
     public static void display3DASCII() {
         String asciiArt =
-                asciiArtColor + // 使用设置的颜色
+                getAsciiArtColor() + // 使用设置的颜色
                         " ________      ___       __       ________      ___    ___   _____      ________      ________      ________  \n" +
                         "|\\   ___ \\    |\\  \\     |\\  \\    |\\   ____\\    |\\  \\  /  /| / __  \\    |\\_____  \\    |\\_____  \\    |\\_____  \\ \n" +
-                        "\\ \\  \\_|\\ \\   \\ \\  \\    \\ \\  \\   \\ \\  \\___|    \\ \\  \\/  / /|\\/_|\\  \\   \\|____|\\ /_   \\|____|\\ /_    \\|___/  /|\n" +
+                        "\\ \\  \\_|\\ \\   \\ \\  \\    \\ \\  \\   \\ \\  \\___|    \\ \\  \\/  / /|\\/|\\  \\   \\|____|\\ /_   \\|____|\\ /_    \\|___/  /|\n" +
                         " \\ \\  \\ \\\\ \\   \\ \\  \\  __\\ \\  \\   \\ \\  \\  ___   \\ \\    / / \\|/ \\ \\  \\        \\|\\  \\        \\|\\  \\       /  / /\n" +
                         "  \\ \\  \\_\\\\ \\   \\ \\  \\|\\__\\_\\  \\   \\ \\  \\|\\  \\   /     \\/       \\ \\  \\      __\\_\\  \\      __\\_\\  \\     /  / / \n" +
                         "   \\ \\_______\\   \\ \\____________\\   \\ \\_______\\ /  /\\   \\        \\ \\__\\    |\\_______\\    |\\_______\\   /__/ /  \n" +
@@ -522,9 +547,12 @@ public class Utils {
      * 显示加载动画，添加颜色和改进动画效果。
      */
     public static void showLoadingAnimation() {
-        String loadingText = loadingAnimationColor + "加载中" + "\033[0m"; // 使用设置的颜色
+        if (!showLoadingAnimation) {
+            return;
+        }
+        String loadingText = getLoadingAnimationColor() + "加载中" + "\033[0m"; // 使用设置的颜色
         String animation = "|/-\\";
-        int repeat = 20; // 循环次数
+        int repeat = 5; // 增加循环次数
 
         System.out.print(loadingText);
         for (int i = 0; i < repeat; i++) {
@@ -537,7 +565,7 @@ public class Utils {
                 }
             }
         }
-        System.out.println("\r" + loadingAnimationColor + "加载完成！   \033[0m");
+        System.out.println("\r" + getLoadingAnimationColor() + "加载完成！   \033[0m");
         logEvent("加载动画完成。");
     }
 
@@ -545,7 +573,121 @@ public class Utils {
      * 显示红色警告信息。
      */
     public static void showWarning(String message) {
-        System.out.println("\033[1;31m警告: " + message + "\033[0m");
+        synchronizedPrint("\033[1;31m警告: " + message + "\033[0m");
         logDetail("警告: " + message);
+    }
+
+    /**
+     * 读取用户输入，提供统一的方法
+     */
+    public static String getUserInput() {
+        return scanner.nextLine();
+    }
+
+    /**
+     * 文件搜索类，用于存储文件详情。
+     */
+    public static class FileDetail {
+        private String path;
+        private long size;
+
+        public FileDetail(String path, long size) {
+            this.path = path;
+            this.size = size;
+        }
+
+        public String getPath() {
+            return path;
+        }
+
+        public long getSize() {
+            return size;
+        }
+    }
+
+    /**
+     * 内部类用于处理流输出。
+     */
+    static class StreamGobbler implements Runnable {
+        private InputStream inputStream;
+        private Consumer<String> consumer;
+
+        public StreamGobbler(InputStream inputStream, Consumer<String> consumer) {
+            this.inputStream = inputStream;
+            this.consumer = consumer;
+        }
+
+        @Override
+        public void run() {
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"))) { // 使用UTF-8编码
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    consumer.accept(line);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**
+     * 同步打印方法，避免多线程输出混乱。
+     *
+     * @param message 要打印的消息
+     */
+    public static synchronized void synchronizedPrint(String message) {
+        System.out.println(message);
+    }
+
+    /**
+     * 关闭Scanner资源。
+     */
+    public static void closeScanner() {
+        if (scanner != null) {
+            scanner.close();
+        }
+    }
+
+    /**
+     * 轮转日志文件，当日志文件超过一定大小时，创建新日志文件。
+     */
+    private static void rotateLogs() {
+        final long MAX_LOG_SIZE = 5 * 1024 * 1024; // 5MB
+        File logFile = new File(LOG_FILE_PATH);
+        if (logFile.exists() && logFile.length() > MAX_LOG_SIZE) {
+            String newName = LOG_FILE_PATH + "." + System.currentTimeMillis() + ".bak";
+            File archive = new File(newName);
+            if (logFile.renameTo(archive)) {
+                try {
+                    logWriter = new PrintWriter(new OutputStreamWriter(new FileOutputStream(LOG_FILE_PATH, true), "UTF-8"), true);
+                    logEvent("日志文件已轮转，创建新的日志文件。");
+                } catch (IOException e) {
+                    System.out.println("无法创建新的日志文件: " + e.getMessage());
+                    loggingEnabled = false;
+                }
+            }
+        }
+    }
+
+    /**
+     * 检查是否以管理员权限运行。
+     *
+     * @return 如果是管理员，则返回true，否则返回false。
+     */
+    public static boolean isAdmin() {
+        String os = System.getProperty("os.name").toLowerCase();
+        if (os.contains("win")) {
+            try {
+                Process process = Runtime.getRuntime().exec(new String[]{"net", "session"});
+                process.getOutputStream().close();
+                int exitCode = process.waitFor();
+                return (exitCode == 0);
+            } catch (IOException | InterruptedException e) {
+                return false;
+            }
+        } else {
+            // 对于非Windows系统，假设是以root权限运行
+            return (System.getProperty("user.name").equals("root"));
+        }
     }
 }
