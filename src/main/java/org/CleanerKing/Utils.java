@@ -1,4 +1,4 @@
-// File: src/org/CleanerKing/Utils.java
+
 package org.CleanerKing;
 
 import org.jline.reader.LineReader;

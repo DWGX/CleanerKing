@@ -1,7 +1,7 @@
-// File: src/org/CleanerKing/modules/ExitModule.java
-package org.CleanerKing.modules;
 
-import org.CleanerKing.Module;
+package org.CleanerKing.ModuleManager.Modules;
+
+import org.CleanerKing.ModuleManager.Module;
 import org.CleanerKing.Utils;
 
 /**

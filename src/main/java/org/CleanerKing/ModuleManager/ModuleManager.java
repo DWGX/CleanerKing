@@ -1,5 +1,7 @@
-// File: src/org/CleanerKing/ModuleManager.java
-package org.CleanerKing;
+
+package org.CleanerKing.ModuleManager;
+
+import org.CleanerKing.Utils;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-// File: src/org/CleanerKing/Settings.java
+
 package org.CleanerKing;
 
 import java.io.*;

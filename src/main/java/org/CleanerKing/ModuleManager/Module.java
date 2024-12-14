@@ -1,4 +1,4 @@
-package org.CleanerKing;
+package org.CleanerKing.ModuleManager;
 
 /**
  * 模块接口，所有功能模块必须实现此接口。

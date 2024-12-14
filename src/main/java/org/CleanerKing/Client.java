@@ -1,6 +1,7 @@
 package org.CleanerKing;
 
-import org.CleanerKing.modules.*;
+import org.CleanerKing.ModuleManager.ModuleManager;
+import org.CleanerKing.ModuleManager.Modules.*;
 
 public class Client {
     public static void main(String[] args) {
