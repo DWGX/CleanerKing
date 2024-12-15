@@ -1,4 +1,3 @@
-
 package org.CleanerKing;
 
 import java.io.*;
@@ -14,7 +13,7 @@ public class Settings {
     // 默认设置
     private String asciiArtColor = "\033[1;34m"; // 蓝色
     private String loadingAnimationColor = "\033[1;32m"; // 绿色
-    private boolean loggingEnabled = false;
+    private boolean loggingEnabled = true;
     private boolean showLoadingAnimation = true;
 
     public Settings() {

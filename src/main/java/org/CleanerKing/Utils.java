@@ -1,4 +1,3 @@
-
 package org.CleanerKing;
 
 import org.jline.reader.LineReader;
@@ -224,18 +223,18 @@ public class Utils {
                 }
 
                 @Override
-                public FileVisitResult postVisitDirectory(Path dirPath, IOException exc) throws IOException {
+                public FileVisitResult postVisitDirectory(Path dp, IOException exc) throws IOException {
                     if (exc != null) {
-                        showWarning("访问目录时发生错误: " + dirPath.toString() + " 错误: " + exc.getMessage());
-                        logDetail("访问目录时发生错误: " + dirPath.toString() + " 错误: " + exc.getMessage());
+                        showWarning("访问目录时发生错误: " + dp.toString() + " 错误: " + exc.getMessage());
+                        logDetail("访问目录时发生错误: " + dp.toString() + " 错误: " + exc.getMessage());
                         return FileVisitResult.CONTINUE;
                     }
                     try {
-                        Files.delete(dirPath);
-                        logDetail("删除目录: " + dirPath.toString());
+                        Files.delete(dp);
+                        logDetail("删除目录: " + dp.toString());
                     } catch (IOException e) {
-                        showWarning("无法删除目录: " + dirPath.toString() + " 错误: " + e.getMessage());
-                        logDetail("无法删除目录: " + dirPath.toString() + " 错误: " + e.getMessage());
+                        showWarning("无法删除目录: " + dp.toString() + " 错误: " + e.getMessage());
+                        logDetail("无法删除目录: " + dp.toString() + " 错误: " + e.getMessage());
                     }
                     return FileVisitResult.CONTINUE;
                 }
@@ -336,7 +335,7 @@ public class Utils {
             if (exitCode == 0) {
                 logEvent("执行命令: " + command);
             } else {
-                showWarning("执行命令时发生错误，退出代码: " + exitCode);
+                showWarning("执行命令时发生错误: " + command);
                 logDetail("执行命令时发生错误: " + command + "，退出代码: " + exitCode);
             }
         } catch (IOException | InterruptedException e) {
@@ -349,9 +348,9 @@ public class Utils {
      * 检查磁盘功能菜单。
      */
     public static void chkdskMenu() {
-        System.out.print("请输入要检查的盘符 (如 C:, 输入 ESC 返回): ");
-        String drv = getUserInput().trim().toUpperCase();
-        if (drv.equalsIgnoreCase("ESC")) {
+        System.out.print("请输入要检查的盘符 (如 C:, 按 ESC 返回): ");
+        String drv = getUserInputWithEsc().trim().toUpperCase();
+        if (drv.equals("ESC")) {
             return;
         }
         if (drv.isEmpty()) {
@@ -365,8 +364,12 @@ public class Utils {
         System.out.println("[1] 仅扫描");
         System.out.println("[2] 扫描并修复错误 (/f)");
         System.out.println("[3] 扫描、修复错误并恢复坏道上的信息 (/f /r)");
-        System.out.print("请选择模式 (1/2/3): ");
-        String mode = getUserInput().trim();
+        System.out.print("请选择模式 (1/2/3, 按 ESC 返回): ");
+        String mode = getUserInputWithEsc().trim();
+        if (mode.equals("ESC")) {
+            return;
+        }
+
         String chkdskCommand = "chkdsk " + drv;
         switch (mode) {
             case "1":
@@ -401,14 +404,14 @@ public class Utils {
             System.out.println("[4] 清理Windows更新缓存");
             System.out.println("[5] 清理预取文件");
             System.out.println("[6] 清理最近打开的文件记录");
-            System.out.println("[7] 清理浏览器缓存 (Edge)");
-            System.out.println("[8] 清理浏览器缓存 (Chrome)");
-            System.out.println("[9] 清理浏览器缓存 (Firefox)");
+            System.out.println("[7] 清理Edge浏览器缓存");
+            System.out.println("[8] 清理Chrome浏览器缓存");
+            System.out.println("[9] 清理Firefox浏览器缓存");
             System.out.println("[10] 刷新DNS缓存");
             System.out.println("[ESC] 返回主菜单");
             System.out.println("-----------------------------------------");
             System.out.print("请选择要清理的选项 (1-10 或 ESC, 多选用逗号分隔): ");
-            String input = getUserInput().trim().toUpperCase();
+            String input = getUserInputWithEsc().trim().toUpperCase();
             if (input.equals("ESC")) {
                 return;
             }
@@ -480,7 +483,7 @@ public class Utils {
                         break;
                     default:
                         showWarning("无效选择: " + sel);
-                        logDetail("用户输入无效选择: " + sel);
+                        logDetail("用户输入无效的清理选项: " + sel);
                 }
             }
 
@@ -496,32 +499,33 @@ public class Utils {
     }
 
     /**
-     * 读取单个字符输入（例如 ESC 键）。
-     * 注意：JLine 3.x 不支持 readBinding
+     * 读取用户输入，提供统一的方法，支持ESC键。
      */
-    public static Character readSingleCharacter() {
+    public static String getUserInputWithEsc() {
         try {
+
             Terminal terminal = TerminalBuilder.builder()
-                    .system(true)
+                    .dumb(true)
                     .build();
             LineReader reader = LineReaderBuilder.builder()
                     .terminal(terminal)
                     .parser(new DefaultParser())
                     .build();
 
+            // 设置提示符为空，避免干扰
             String input = reader.readLine("", null, null);
-
-            if (input != null && !input.isEmpty()) {
-                char ch = input.charAt(0);
-                if (ch == 27) { // ESC键
-                    return 27;
-                }
-                return ch;
+            if (input == null) {
+                return "";
             }
+            // 检测是否为ESC键
+            if (input.equals("\u001B")) { // ESC字符
+                return "ESC";
+            }
+            return input;
         } catch (IOException e) {
             e.printStackTrace();
+            return "";
         }
-        return null;
     }
 
     /**
@@ -552,7 +556,7 @@ public class Utils {
         }
         String loadingText = getLoadingAnimationColor() + "加载中" + "\033[0m"; // 使用设置的颜色
         String animation = "|/-\\";
-        int repeat = 5; // 增加循环次数
+        int repeat = 2; // 增加循环次数
 
         System.out.print(loadingText);
         for (int i = 0; i < repeat; i++) {
@@ -588,8 +592,8 @@ public class Utils {
      * 文件搜索类，用于存储文件详情。
      */
     public static class FileDetail {
-        private String path;
-        private long size;
+        private final String path;
+        private final long size;
 
         public FileDetail(String path, long size) {
             this.path = path;
@@ -609,8 +613,8 @@ public class Utils {
      * 内部类用于处理流输出。
      */
     static class StreamGobbler implements Runnable {
-        private InputStream inputStream;
-        private Consumer<String> consumer;
+        private final InputStream inputStream;
+        private final Consumer<String> consumer;
 
         public StreamGobbler(InputStream inputStream, Consumer<String> consumer) {
             this.inputStream = inputStream;

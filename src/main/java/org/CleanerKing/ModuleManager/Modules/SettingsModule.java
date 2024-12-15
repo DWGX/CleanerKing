@@ -1,4 +1,3 @@
-
 package org.CleanerKing.ModuleManager.Modules;
 
 import org.CleanerKing.ModuleManager.Module;
@@ -27,7 +26,12 @@ public class SettingsModule implements Module {
             System.out.println("--------------------------------");
             System.out.print("请选择设置选项 (1-5): ");
 
-            String choice = Utils.getUserInput().trim();
+            String choice = Utils.getUserInputWithEsc().trim();
+
+            if (choice.equalsIgnoreCase("ESC")) {
+                Utils.logDetail("用户在设置模块中按下ESC键。");
+                return;
+            }
 
             switch (choice) {
                 case "1":
@@ -47,6 +51,7 @@ public class SettingsModule implements Module {
                 default:
                     System.out.println("无效选择，请重试。");
                     Utils.pause();
+                    break;
             }
         }
     }
@@ -65,9 +70,14 @@ public class SettingsModule implements Module {
         System.out.println("[6] 青色");
         System.out.println("[7] 白色");
         System.out.println("[8] 重置为默认");
-        System.out.print("请选择颜色选项 (1-8): ");
+        System.out.print("请选择颜色选项 (1-8, 按 ESC 返回): ");
 
-        String colorChoice = Utils.getUserInput().trim();
+        String colorChoice = Utils.getUserInputWithEsc().trim();
+        if (colorChoice.equalsIgnoreCase("ESC")) {
+            Utils.logDetail("用户在更改3D ASCII艺术标题颜色时按下ESC键。");
+            return;
+        }
+
         String selectedColor = null;
         String colorName = "";
         switch (colorChoice) {
@@ -133,9 +143,14 @@ public class SettingsModule implements Module {
         System.out.println("[6] 青色");
         System.out.println("[7] 白色");
         System.out.println("[8] 重置为默认");
-        System.out.print("请选择颜色选项 (1-8): ");
+        System.out.print("请选择颜色选项 (1-8, 按 ESC 返回): ");
 
-        String colorChoice = Utils.getUserInput().trim();
+        String colorChoice = Utils.getUserInputWithEsc().trim();
+        if (colorChoice.equalsIgnoreCase("ESC")) {
+            Utils.logDetail("用户在更改加载动画颜色时按下ESC键。");
+            return;
+        }
+
         String selectedColor = null;
         String colorName = "";
         switch (colorChoice) {
@@ -193,9 +208,14 @@ public class SettingsModule implements Module {
         System.out.println("[1] 启用日志保存");
         System.out.println("[2] 禁用日志保存");
         System.out.println("[3] 返回设置菜单");
-        System.out.print("请选择操作 (1-3): ");
+        System.out.print("请选择操作 (1-3, 按 ESC 返回): ");
 
-        String choice = Utils.getUserInput().trim();
+        String choice = Utils.getUserInputWithEsc().trim();
+        if (choice.equalsIgnoreCase("ESC")) {
+            Utils.logDetail("用户在启用/禁用日志保存时按下ESC键。");
+            return;
+        }
+
         switch (choice) {
             case "1":
                 Utils.enableLogging(true);
@@ -224,9 +244,14 @@ public class SettingsModule implements Module {
         System.out.println("[1] 启用加载动画");
         System.out.println("[2] 禁用加载动画");
         System.out.println("[3] 返回设置菜单");
-        System.out.print("请选择操作 (1-3): ");
+        System.out.print("请选择操作 (1-3, 按 ESC 返回): ");
 
-        String choice = Utils.getUserInput().trim();
+        String choice = Utils.getUserInputWithEsc().trim();
+        if (choice.equalsIgnoreCase("ESC")) {
+            Utils.logDetail("用户在启用/禁用加载动画时按下ESC键。");
+            return;
+        }
+
         switch (choice) {
             case "1":
                 Utils.setShowLoadingAnimation(true);

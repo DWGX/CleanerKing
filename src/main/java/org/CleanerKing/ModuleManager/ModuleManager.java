@@ -1,4 +1,3 @@
-
 package org.CleanerKing.ModuleManager;
 
 import org.CleanerKing.Utils;

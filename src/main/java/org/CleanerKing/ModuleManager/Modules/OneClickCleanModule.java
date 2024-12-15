@@ -1,10 +1,7 @@
-
 package org.CleanerKing.ModuleManager.Modules;
 
 import org.CleanerKing.ModuleManager.Module;
 import org.CleanerKing.Utils;
-
-import java.io.File;
 
 /**
  * 一键清理模块，执行常见的清理任务。
